@@ -3,8 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>SAIT Information Architecture - Important Dates</title> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 5720px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .error-message {
+            color: #d32f2f;
+            background-color: #ffebee;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 4px solid #d32f2f;
+            margin: 20px 0;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-  <img src="IA_Important_Dates1.png" alt="SAIT Information Architecture Diagram - Important Dates Structure"> 
+    <div class="container">
+        <!-- <h1>SAIT Information Architecture - Important Dates</h1> -->
+        <div class="image-container">
+            <img src="IA_Important_Dates1.png" 
+                 alt="SAIT Information Architecture Diagram - Important Dates Structure"
+                 onerror="this.style.display='none'; document.getElementById('error-msg').style.display='block';">
+        </div>
+        <!-- <div id="error-msg" class="error-message">
+            <strong>Image not found:</strong> The file "IA_Important_Dates1.png" could not be loaded. Please check that the image file exists in the same directory as this HTML file.
+        </div> -->
+    </div>
 </body>
 </html>
